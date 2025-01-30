@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    }
+
+body{
+font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+    margin-left: 40px;
+    color: thistle;
+    font-size: 95px;
+    font-weight: 20;
+}
+
+h2 {
+    margin-left: -60px;
+    margin-top: -20px;
+    color: darkslateblue;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+h3 {
+    color: lavenderblush;
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 50;
+
+}
+
+p {
+    color: darkslateblue;
+}
+
+header {
+    background-color:lavenderblush;
+    text-align: center;
+    padding: 50px;
+    }
+    
+main {
+    background-image: linear-gradient( darkslateblue, thistle);
+    padding: 40px;
+    height: 600px;
+}
+
+.login {
+    margin: auto;
+    width: 300px;
+    padding: 50px 20px;
+    background-color: white;
+    border: solid 2px darkslateblue;
+    border-radius: 30px;
+    display: grid;
+}
+
+i {
+    font-size: 30px;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+input {
+    border: solid 2px black;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+.button{
+background-color: darkslateblue;
+color: white;
+padding: 5px;
+width: 160px;
+border-radius: 50px;
+}
+
+.button:hover{
+    scale: 105%;
+    background-color: midnightblue;
+}
+
+footer {
+background-color: thistle;
+color: darkslateblue;
+display: block;
+padding-left: 50px;
+height: 100px;
+}
